@@ -1,0 +1,6 @@
+[submodule "liquid-infrastructure/lib/forge-std"]
+	path = liquid-infrastructure/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "liquid-infrastructure/lib/openzeppelin-contracts"]
+	path = liquid-infrastructure/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
