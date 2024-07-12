@@ -28,17 +28,7 @@ contract deployErc20ABC {
         erc20Caddr = address(erc20C);
         return [erc20Aaddr, erc20Baddr, erc20Caddr];
     }
-/**
- * constructor(
-        string memory _name,
-        string memory _symbol,
-        address[] memory _managedNFTs,
-        address[] memory _approvedHolders,
-        uint256 _minDistributionPeriod,
-        address[] memory _distributableErc20s
-    ) 
- * 
- */
+
     function deployLiquidERC20(
         string memory _name,
         string memory _symbol,
